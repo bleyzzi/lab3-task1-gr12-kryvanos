@@ -1,8 +1,8 @@
 language = "c"
-run = "gcc -o hello /home/runner/project2/src/hello.c"
+run = "./main"
 entrypoint = "main.c"
-hidden = ["main", "main-debug", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
-compile = ["make", "-s"]
+hidden = ["main", "main-debug", "/*.o", "/*.d", ".ccls-cache", "Makefile"]
+compile = "gcc -o main /home/runner/lab3-task1-gr13D-kryvanos/src/main.c"
 
 [languages]
 
